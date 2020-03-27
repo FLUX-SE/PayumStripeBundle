@@ -1,0 +1,8 @@
+services:
+
+    prometee.payum_stripe_checkout_session.gateway_factory_builder:
+        class: Payum\Core\Bridge\Symfony\Builder\GatewayFactoryBuilder
+        arguments:
+            $gatewayFactoryClass: Prometee\PayumStripeCheckoutSession\StripeCheckoutSessionGatewayFactory
+        tags:
+            - { name: payum.gateway_factory_builder, factory: stripe_checkout_session }
