@@ -13,15 +13,28 @@ See https://stripe.com/docs/payments/checkout for more information.
 
 Install using Composer :
 
+```bash
+composer require prometee/payum-stripe-checkout-session-bundle
 ```
-$ composer require prometee/payum-stripe-checkout-session-bundle
+
+Choose one of [php-http/client-implementation](https://packagist.org/providers/php-http/client-implementation),
+the most used is [php-http/guzzle6-adapter](https://packagist.org/packages/php-http/guzzle6-adapter)
+
+```bash
+composer require  php-http/guzzle6-adapter
 ```
 
 ## Usage
 
-```php
+See documentation here :
+https://github.com/Prometee/PayumStripeCheckoutSession/blob/master/README.md 
 
-```
+## More
+
+The Sylius plugin :
+
+https://github.com/Prometee/SyliusPayumStripeCheckoutSessionPlugin
+
 
 [ico-version]: https://img.shields.io/packagist/v/Prometee/payum-stripe-checkout-session-bundle.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square

@@ -30,6 +30,5 @@ class Configuration implements ConfigurationInterface
      */
     protected function addGlobalSection(ArrayNodeDefinition $node)
     {
-
     }
 }
