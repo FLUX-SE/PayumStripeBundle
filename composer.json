@@ -14,9 +14,10 @@
         "php-http/guzzle6-adapter": "^2.0"
     },
     "autoload": {
-        "psr-4": {
-            "Prometee\\PayumStripeCheckoutSessionBundle\\": "."
-        }
+        "psr-4": { "Prometee\\PayumStripeCheckoutSessionBundle\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\Prometee\\PayumStripeCheckoutSession\\": "tests/" }
     },
     "license": "MIT",
     "extra": {
