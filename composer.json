@@ -3,7 +3,7 @@
     "description": "Payum Stripe checkout session gateway bundle",
     "type": "symfony-bundle",
     "require": {
-        "prometee/payum-stripe": "^1.0",
+        "prometee/payum-stripe": "^1.1",
         "symfony/http-kernel": "^4.1",
         "symfony/dependency-injection": "^4.1",
         "symfony/config": "^4.1"
