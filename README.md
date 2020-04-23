@@ -27,7 +27,7 @@ composer require  php-http/guzzle6-adapter
 ## Usage
 
 See documentation here :
-https://github.com/Prometee/PayumStripeCheckoutSession/blob/master/README.md 
+https://github.com/Prometee/PayumStripe/blob/master/README.md 
 
 ## More
 

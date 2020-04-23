@@ -3,7 +3,7 @@
     "description": "Payum Stripe checkout session gateway bundle",
     "type": "symfony-bundle",
     "require": {
-        "prometee/payum-stripe-checkout-session": "^1.0",
+        "prometee/payum-stripe": "^1.0",
         "symfony/http-kernel": "^4.1",
         "symfony/dependency-injection": "^4.1",
         "symfony/config": "^4.1"
@@ -17,7 +17,7 @@
         "psr-4": { "Prometee\\PayumStripeCheckoutSessionBundle\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Tests\\Prometee\\PayumStripeCheckoutSession\\": "tests/" }
+        "psr-4": { "Tests\\Prometee\\PayumStripeCheckoutSessionBundle\\": "tests/" }
     },
     "license": "MIT",
     "extra": {
