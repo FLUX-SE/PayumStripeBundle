@@ -24,6 +24,43 @@ the most used is [php-http/guzzle6-adapter](https://packagist.org/packages/php-h
 composer require  php-http/guzzle6-adapter
 ```
 
+## Configuration
+
+### API keys
+
+Get your `publishable_key` and your `secret_key` on your Stripe account :
+
+https://dashboard.stripe.com/test/apikeys
+
+### Webhook key
+Then get a `webhook_secret_key` configured with at least two events :
+ 
+ - `payment_intent.canceled`
+ - `checkout.session.completed`
+
+The URL to fill is the route named `payum_notify_do_unsafe`, here is an example :
+
+```
+http://localhost/payment/notify/unsafe/stripe_checkout_session
+```
+
+https://dashboard.stripe.com/test/webhooks
+
+### Payum
+
+```yaml
+# config/packages/payum.yaml
+
+payum:
+  gateways:
+    stripe_checkout_session:
+      factory: stripe_checkout_session
+      publishable_key: sk_test_secretkey
+      secret_key: pk_test_publishablekey
+      webhook_secret_keys:
+        - whsec_test_webhookkey
+```
+
 ## Usage
 
 See documentation here :
