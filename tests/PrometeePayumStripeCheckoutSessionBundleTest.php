@@ -1,16 +1,16 @@
 <?php
 
-namespace Tests\Prometee\PayumStripeCheckoutSessionBundle;
+namespace Tests\FluxSE\PayumStripeBundle;
 
-use Prometee\PayumStripeCheckoutSessionBundle\PrometeePayumStripeCheckoutSessionBundle;
 use PHPUnit\Framework\TestCase;
+use FluxSE\PayumStripeBundle\FluxSEPayumStripeBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class PrometeePayumStripeCheckoutSessionBundleTest extends TestCase
+class FluxSEPayumStripeBundleTest extends TestCase
 {
     public function test__construct()
     {
-        $bundle = new PrometeePayumStripeCheckoutSessionBundle();
+        $bundle = new FluxSEPayumStripeBundle();
 
         $this->assertInstanceOf(Bundle::class, $bundle);
     }

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Prometee\PayumStripeCheckoutSessionBundle\DependencyInjection;
+namespace FluxSE\PayumStripeBundle\DependencyInjection;
 
 use Exception;
 use Symfony\Component\Config\FileLocator;
@@ -10,7 +10,7 @@ use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
 use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 
-class PrometeePayumStripeCheckoutSessionExtension extends Extension
+class FluxSEPayumStripeExtension extends Extension
 {
     /**
      * {@inheritdoc}
