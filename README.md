@@ -102,7 +102,7 @@ https://github.com/FLUX-SE/SyliusPayumStripePlugin
 [ico-version]: https://img.shields.io/packagist/v/FLUX-SE/payum-stripe-bundle.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-travis]: https://img.shields.io/travis/FLUX-SE/PayumStripeBundle/master.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/FluxSE/PayumStripeBundle.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/FLUX-SE/PayumStripeBundle.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/flux-se/payum-stripe-bundle
 [link-travis]: https://travis-ci.org/FLUX-SE/PayumStripeBundle
