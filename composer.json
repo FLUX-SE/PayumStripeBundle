@@ -4,9 +4,9 @@
     "type": "symfony-bundle",
     "require": {
         "flux-se/payum-stripe": "^1.1",
-        "symfony/http-kernel": "^4.1|^5.1",
-        "symfony/dependency-injection": "^4.1|^5.1",
-        "symfony/config": "^4.1|^5.1"
+        "symfony/http-kernel": "^4.1|^5.1.5",
+        "symfony/dependency-injection": "^4.1|^5.1.5",
+        "symfony/config": "^4.1|^5.1.5"
     },
     "require-dev": {
         "phpunit/phpunit": "^8|^9",
