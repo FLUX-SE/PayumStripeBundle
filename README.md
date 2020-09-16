@@ -14,7 +14,7 @@ See https://stripe.com/docs/payments/checkout for more information.
 Install using Composer :
 
 ```bash
-composer require flux-se/payum-stripe-checkout-session-bundle
+composer require flux-se/payum-stripe-bundle
 ```
 
 Choose one of [php-http/client-implementation](https://packagist.org/providers/php-http/client-implementation),
@@ -96,15 +96,15 @@ https://github.com/FluxSE/PayumStripe/blob/master/README.md
 
 The Sylius plugin :
 
-https://github.com/FluxSE/SyliusPayumStripeCheckoutSessionPlugin
+https://github.com/FluxSE/SyliusPayumStripePlugin
 
 
-[ico-version]: https://img.shields.io/packagist/v/FluxSE/payum-stripe-checkout-session-bundle.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/Flux-SE/payum-stripe-bundle.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/FluxSE/PayumStripeBundle/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/Flux-SE/PayumStripeBundle/master.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/FluxSE/PayumStripeBundle.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/flux-se/payum-stripe-checkout-session-bundle
-[link-travis]: https://travis-ci.org/FluxSE/PayumStripeBundle
-[link-scrutinizer]: https://scrutinizer-ci.com/g/FluxSE/PayumStripeBundle/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/FluxSE/PayumStripeBundle
+[link-packagist]: https://packagist.org/packages/flux-se/payum-stripe-bundle
+[link-travis]: https://travis-ci.org/Flux-SE/PayumStripeBundle
+[link-scrutinizer]: https://scrutinizer-ci.com/g/Flux-SE/PayumStripeBundle/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/Flux-SE/PayumStripeBundle
