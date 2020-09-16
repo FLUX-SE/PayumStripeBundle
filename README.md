@@ -14,7 +14,7 @@ See https://stripe.com/docs/payments/checkout for more information.
 Install using Composer :
 
 ```bash
-composer require prometee/payum-stripe-checkout-session-bundle
+composer require flux-se/payum-stripe-bundle
 ```
 
 Choose one of [php-http/client-implementation](https://packagist.org/providers/php-http/client-implementation),
@@ -90,21 +90,21 @@ payum:
 ## Usage
 
 See documentation here :
-https://github.com/Prometee/PayumStripe/blob/master/README.md 
+https://github.com/FLUX-SE/PayumStripe/blob/master/README.md 
 
 ## More
 
 The Sylius plugin :
 
-https://github.com/Prometee/SyliusPayumStripeCheckoutSessionPlugin
+https://github.com/FLUX-SE/SyliusPayumStripePlugin
 
 
-[ico-version]: https://img.shields.io/packagist/v/Prometee/payum-stripe-checkout-session-bundle.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/FLUX-SE/payum-stripe-bundle.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/Prometee/PayumStripeCheckoutSessionBundle/master.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/Prometee/PayumStripeCheckoutSessionBundle.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/FLUX-SE/PayumStripeBundle/master.svg?style=flat-square
+[ico-code-quality]: https://img.shields.io/scrutinizer/g/FluxSE/PayumStripeBundle.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/prometee/payum-stripe-checkout-session-bundle
-[link-travis]: https://travis-ci.org/Prometee/PayumStripeCheckoutSessionBundle
-[link-scrutinizer]: https://scrutinizer-ci.com/g/Prometee/PayumStripeCheckoutSessionBundle/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/Prometee/PayumStripeCheckoutSessionBundle
+[link-packagist]: https://packagist.org/packages/flux-se/payum-stripe-bundle
+[link-travis]: https://travis-ci.org/FLUX-SE/PayumStripeBundle
+[link-scrutinizer]: https://scrutinizer-ci.com/g/FLUX-SE/PayumStripeBundle/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/FLUX-SE/PayumStripeBundle
