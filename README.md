@@ -90,21 +90,21 @@ payum:
 ## Usage
 
 See documentation here :
-https://github.com/FluxSE/PayumStripe/blob/master/README.md 
+https://github.com/FLUX-SE/PayumStripe/blob/master/README.md 
 
 ## More
 
 The Sylius plugin :
 
-https://github.com/FluxSE/SyliusPayumStripePlugin
+https://github.com/FLUX-SE/SyliusPayumStripePlugin
 
 
-[ico-version]: https://img.shields.io/packagist/v/Flux-SE/payum-stripe-bundle.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/FLUX-SE/payum-stripe-bundle.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/Flux-SE/PayumStripeBundle/master.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/FLUX-SE/PayumStripeBundle/master.svg?style=flat-square
 [ico-code-quality]: https://img.shields.io/scrutinizer/g/FluxSE/PayumStripeBundle.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/flux-se/payum-stripe-bundle
-[link-travis]: https://travis-ci.org/Flux-SE/PayumStripeBundle
-[link-scrutinizer]: https://scrutinizer-ci.com/g/Flux-SE/PayumStripeBundle/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/Flux-SE/PayumStripeBundle
+[link-travis]: https://travis-ci.org/FLUX-SE/PayumStripeBundle
+[link-scrutinizer]: https://scrutinizer-ci.com/g/FLUX-SE/PayumStripeBundle/code-structure
+[link-code-quality]: https://scrutinizer-ci.com/g/FLUX-SE/PayumStripeBundle
