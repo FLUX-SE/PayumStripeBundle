@@ -2,8 +2,8 @@
 
 namespace Tests\FluxSE\PayumStripeBundle;
 
-use PHPUnit\Framework\TestCase;
 use FluxSE\PayumStripeBundle\FluxSEPayumStripeBundle;
+use PHPUnit\Framework\TestCase;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class FluxSEPayumStripeBundleTest extends TestCase
