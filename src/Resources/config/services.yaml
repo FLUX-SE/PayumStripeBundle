@@ -6,3 +6,10 @@ services:
             $gatewayFactoryClass: FluxSE\PayumStripe\StripeCheckoutSessionGatewayFactory
         tags:
             - { name: payum.gateway_factory_builder, factory: stripe_checkout_session }
+
+    flux_se.payum_stripe_js.gateway_factory_builder:
+        class: Payum\Core\Bridge\Symfony\Builder\GatewayFactoryBuilder
+        arguments:
+            $gatewayFactoryClass: FluxSE\PayumStripe\StripeJsGatewayFactory
+        tags:
+            - { name: payum.gateway_factory_builder, factory: stripe_js }

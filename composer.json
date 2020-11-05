@@ -3,7 +3,7 @@
     "description": "Payum Stripe gateways bundle",
     "type": "symfony-bundle",
     "require": {
-        "flux-se/payum-stripe": "^1.1",
+        "flux-se/payum-stripe": "^1.2.1",
         "symfony/http-kernel": "^4.1|^5.1.5",
         "symfony/dependency-injection": "^4.1|^5.1.5",
         "symfony/config": "^4.1|^5.1.5"
@@ -22,7 +22,7 @@
     "license": "MIT",
     "extra": {
         "branch-alias": {
-            "dev-master": "1.1-dev"
+            "dev-master": "1.2-dev"
         }
     },
     "authors": [

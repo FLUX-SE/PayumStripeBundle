@@ -5,7 +5,7 @@
 
 ## Payum Stripe checkout session gateway bundle
 
-This bundle is designed to add a new gateway to Payum to support Stripe checkout session over symfony bundle
+This bundle is design to add a new gateway to Payum to support Stripe checkout session and Stripe JS gateways over symfony bundle
 
 See https://stripe.com/docs/payments/checkout for more information.
 
@@ -81,6 +81,12 @@ payum:
   gateways:
     stripe_checkout_session:
       factory: stripe_checkout_session
+      publishable_key: sk_test_secretkey
+      secret_key: pk_test_publishablekey
+      webhook_secret_keys:
+        - whsec_test_webhookkey
+    stripe_js:
+      factory: stripe_js
       publishable_key: sk_test_secretkey
       secret_key: pk_test_publishablekey
       webhook_secret_keys:
