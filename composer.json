@@ -2,15 +2,16 @@
     "name": "flux-se/payum-stripe-bundle",
     "description": "Payum Stripe gateways bundle",
     "type": "symfony-bundle",
+    "license": "MIT",
     "require": {
         "flux-se/payum-stripe": "^1.2.1",
-        "symfony/http-kernel": "^4.1|^5.1.5",
-        "symfony/dependency-injection": "^4.1|^5.1.5",
-        "symfony/config": "^4.1|^5.1.5"
+        "symfony/http-kernel": "^4.4|^5.2",
+        "symfony/dependency-injection": "^4.4|^5.2",
+        "symfony/config": "^4.4|^5.2"
     },
     "require-dev": {
         "phpunit/phpunit": "^8|^9",
-        "symplify/easy-coding-standard": "^8.3",
+        "symplify/easy-coding-standard": "^8|^9",
         "php-http/guzzle6-adapter": "^2.0"
     },
     "autoload": {
@@ -19,10 +20,20 @@
     "autoload-dev": {
         "psr-4": { "Tests\\FluxSE\\PayumStripeBundle\\": "tests/" }
     },
-    "license": "MIT",
+    "scripts": {
+        "analyse": [
+            "@composer validate --strict",
+            "vendor/bin/ecs check .",
+            "vendor/bin/phpstan.phar analyse -c phpstan.neon -l max src/",
+            "vendor/bin/psalm"
+        ],
+        "fix": [
+            "vendor/bin/ecs check . --fix"
+        ]
+    },
     "extra": {
         "branch-alias": {
-            "dev-master": "1.2-dev"
+            "dev-master": "2.0-dev"
         }
     },
     "authors": [
