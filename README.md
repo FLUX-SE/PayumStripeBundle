@@ -104,7 +104,6 @@ The Sylius plugin :
 
 https://github.com/FLUX-SE/SyliusPayumStripePlugin
 
-
 [ico-version]: https://img.shields.io/packagist/v/FLUX-SE/payum-stripe-bundle.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
 [ico-github-actions]: https://github.com/FLUX-SE/PayumStripeBundle/workflows/Build/badge.svg
