@@ -8,8 +8,8 @@
 >
 
     <testsuites>
-        <testsuite name="Payum Stripe checkout session gateway bundle Test Suite">
-            <directory>./Tests/</directory>
+        <testsuite name="Payum Stripe gateway bundle Test Suite">
+            <directory>./tests/</directory>
         </testsuite>
     </testsuites>
 </phpunit>

@@ -13,11 +13,11 @@ use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
 class FluxSEPayumStripeExtension extends Extension
 {
     /**
-     * {@inheritdoc}
+     * @param string[] $configs
      *
      * @throws Exception
      */
-    public function load(array $configs, ContainerBuilder $container)
+    public function load(array $configs, ContainerBuilder $container): void
     {
         $loader = new YamlFileLoader(
             $container,
