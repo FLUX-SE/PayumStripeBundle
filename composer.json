@@ -4,7 +4,7 @@
     "type": "symfony-bundle",
     "license": "MIT",
     "require": {
-        "flux-se/payum-stripe": "^2.0.0-RC",
+        "flux-se/payum-stripe": "^2.0",
         "payum/payum-bundle": "^2.4",
         "symfony/http-kernel": "^4.4|^5.2",
         "symfony/dependency-injection": "^4.4|^5.2",
