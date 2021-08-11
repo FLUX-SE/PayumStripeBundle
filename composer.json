@@ -14,7 +14,7 @@
         "phpunit/phpunit": "^8|^9",
         "symplify/easy-coding-standard": "^8|^9",
         "php-http/guzzle6-adapter": "^2.0",
-        "phpstan/phpstan": "^0.12.82",
+        "phpstan/phpstan": "^0.12",
         "vimeo/psalm": "^4.3"
     },
     "autoload": {
