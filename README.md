@@ -93,7 +93,7 @@ payum:
         - whsec_test_webhookkey
 ```
 
-To set payment-methods you can add ``payment_method_types`` to the gateway-config. This array can contain multiple gateways you want to support. For a full list see <a href="https://stripe.com/docs/api/payment_methods/object">here</>. By default the payment_method_types is ['card'].
+To set payment-methods you can add ``payment_method_types`` to the gateway-config. This array can contain multiple gateways you want to support. For a full list see <a href="https://stripe.com/docs/api/payment_methods/object">here</a>. By default the payment_method_types is ['card'].
 
 ## Usage
 
