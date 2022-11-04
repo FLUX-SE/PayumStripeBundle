@@ -1,0 +1,6 @@
+parameters:
+    reportUnmatchedIgnoredErrors: false
+
+    paths:
+        - src
+        - tests

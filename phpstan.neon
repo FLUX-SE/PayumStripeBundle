@@ -1,2 +1,7 @@
+includes:
+    - 'phpstan.neon.dist'
+
 parameters:
-    reportUnmatchedIgnoredErrors: false
+    editorUrl: '%%file%%:%%line%%'
+
+    level: 8
