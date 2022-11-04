@@ -8,7 +8,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
 
 class FluxSEPayumStripeBundleTest extends TestCase
 {
-    public function test__construct()
+    public function test__construct(): void
     {
         $bundle = new FluxSEPayumStripeBundle();
 
