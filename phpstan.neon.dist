@@ -1,6 +1,8 @@
 parameters:
     reportUnmatchedIgnoredErrors: false
 
+    level: max
+
     paths:
         - src
         - tests
