@@ -4,4 +4,3 @@ includes:
 parameters:
     editorUrl: '%%file%%:%%line%%'
 
-    level: 8
