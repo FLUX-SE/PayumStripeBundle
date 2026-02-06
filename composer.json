@@ -32,7 +32,7 @@
         "analyse": [
             "@composer validate --strict",
             "vendor/bin/ecs check",
-            "vendor/bin/phpstan.phar analyse"
+            "vendor/bin/phpstan analyse"
         ],
         "fix": [
             "vendor/bin/ecs check --fix"
