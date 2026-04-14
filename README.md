@@ -102,9 +102,19 @@ https://github.com/FLUX-SE/PayumStripe/blob/master/README.md
 
 ## More
 
-The Sylius plugin :
+The Sylius plugin:
 
-https://github.com/FLUX-SE/SyliusPayumStripePlugin
+https://github.com/Sylius/PayumStripePlugin
+
+## Authors
+
+This bundle was originally created by [Harman Professional, Inc.](https://github.com/flux-se)
+
+Kudos to [Prometee](https://github.com/Prometee) and [all contributors](../../contributors) 🙏
+
+## License
+
+This bundle is released under the [MIT License](LICENSE).
 
 [ico-version]: https://img.shields.io/packagist/v/FLUX-SE/payum-stripe-bundle.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
